@@ -93,7 +93,7 @@ def make_a_coffee(drink, amount_paid):
 
 
 while machine_on:
-    choice = drink_choice()  # Klient dokonuje wyboru
+    choice = drink_choice() 
     if choice == 'off':
         print("The system is off - now you can repair the machine")
         machine_on = False
